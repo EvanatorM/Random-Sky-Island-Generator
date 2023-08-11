@@ -1,3 +1,0 @@
-function randomislands:bottom/generatebottomtick
-function randomislands:shape/generateshapetick
-function randomislands:top/generatetoptick
