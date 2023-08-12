@@ -33,5 +33,3 @@ execute as @e[tag=gentopisl2] run scoreboard players remove @s islgenheight 1
 $execute as @e[tag=gentopisl2] if score @s islgenheight matches ..-1 at @s run fill ~ $(height) ~ ~ ~ ~ dirt
 execute as @e[tag=gentopisl2] if score @s islgenheight matches ..-1 at @s run setblock ~ ~ ~ grass_block
 execute as @e[tag=gentopisl2] if score @s islgenheight matches ..-1 run kill @s
-
-execute if entity @e[tag=islandtest] unless entity @e[tag=islandtop] unless entity @e[tag=topisl] run function randomislands:features/generatefeatures
