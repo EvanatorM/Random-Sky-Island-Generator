@@ -1,1 +1,0 @@
-execute as @e[tag=islandregionnew] at @s if entity @e[type=player,distance=..3] run function randomislands:test_inf_gen/infgenplace

@@ -1,0 +1,1 @@
+execute unless entity @e[tag=testisl] at @r as @e[tag=islandregionnew,limit=1,sort=nearest] at @s if entity @e[type=player,distance=..200] run function randomislands:inf_gen/infgenplace

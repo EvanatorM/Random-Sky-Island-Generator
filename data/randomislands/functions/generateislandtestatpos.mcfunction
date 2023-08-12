@@ -1,6 +1,6 @@
-execute positioned 0 60 0 run function randomislands:clearisland
+execute positioned ~ ~ ~ run function randomislands:clearisland
 
-summon armor_stand 0 60 0 {NoGravity:1b,Tags:["testisl"]}
+summon armor_stand ~ ~ ~ {NoGravity:1b,Tags:["testisl"]}
 
 data modify storage randomislands:islgen island.datapath set value 'randomislands:islgen island'
 data modify storage randomislands:islgen island.heightdivide set value 3
